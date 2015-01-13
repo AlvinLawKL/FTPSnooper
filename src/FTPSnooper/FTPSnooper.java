@@ -210,35 +210,6 @@ public class FTPSnooper {
 		checkPASVfile();
 		updateFileInfo();
 		disconnect();
-		// Currently faked method that produces hardcoded results.
-		// You need to properly implement this so it searches the FTP site.
-		
-/*		fileInfo.put("rfc957.txt",
-"\n" +
-"Network Working Group                                         D.L. Mills\n" +
-"Request for Comments: 957                               M/A-COM Linkabit\n" +
-"                                                          September 1985\n" +
-"\n" +
-"              Experiments in Network Clock Synchronization\n" +
-"\n" +
-"\n" +
-"Status of this Memo\n" +
-"\n" +
-"   This RFC discusses some experiments in clock synchronization in the\n" +
-"   ARPA-Internet community, and requests discussion and suggestions for\n" +
-"   improvements.  Distribution of this memo is unlimited.\n" +
-" etc. etc. etc. ..."
-);
-
-		fileInfo.put("rfc958.txt",
-" *** FAILED TO RETRIEVE *** \n" +
-" Failed to open data socket."
-);
-
-		fileInfo.put("rfc959.txt",
-" *** FAILED TO RETRIEVE *** \n" +
-" Failed to open data socket."
-);*/
 	}
 
 	/**
