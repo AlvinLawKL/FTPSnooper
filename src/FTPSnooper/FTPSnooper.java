@@ -25,7 +25,6 @@ public class FTPSnooper {
 	private int port = 21;
 	private ArrayList<String> requiredList = new ArrayList<String>();
 	
-	
 	// Hostname of the FTP server to connect to.
 	private final String hostname;
 	
